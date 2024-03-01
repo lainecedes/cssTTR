@@ -1,0 +1,32 @@
+/* fonts go here */
+
+
+
+/*------------------*/
+/* ---- general ----*/
+/*------------------*/
+
+
+*, *::after, *::before {
+    box-sizing: border-box;  
+  }
+  
+  button, summary {
+      cursor: pointer;
+  }
+  
+  :root {
+    /* colors */
+      --color-text-black:#111;
+      --color-background:#eee;
+      --color-text-white: #ffffff;
+
+    /* others */
+  }
+
+
+
+/*---------------*/
+/* ---- code ----*/
+/*---------------*/
+  
