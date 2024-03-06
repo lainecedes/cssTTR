@@ -7,6 +7,9 @@ This is the repository for my individual assignment for the course CSS to the Re
 - Additional ideas
 
 ## Week 2
+- Making the layout
+- Working on the record scratch player
+- Adding sound to the record scratch
 
 ## Week 3
 
