@@ -23,6 +23,8 @@
       --color-text-white: #ffffff;
 
     /* others */
+
+    --angle: 0deg;
   }
 
 
@@ -37,7 +39,7 @@ h1 {
 }
 
 html {
-    /* background-color: rgb(98, 15, 104); */
+    background-color: rgb(98, 15, 104);
 }
 
 
@@ -136,3 +138,46 @@ main > div:nth-of-type(1) > div:nth-of-type(4) input[type="radio"] {
 main > div:nth-of-type(1) > div:nth-of-type(4) input[type="radio"]:hover {
     background-color: green;
 }
+
+
+
+/* stage lights */
+main > div:nth-of-type(2) {
+
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    width: 15rem;
+    height: 40rem;
+    z-index: 100;
+
+    clip-path: polygon(45% 0, 50% 0, 65% 100%, 32% 100%);
+
+    background: linear-gradient(0.25turn,rgba(254, 225, 189, 0.7), rgba(255,255,100,0));
+    transition: ease-in-out 4s; 
+
+    animation-duration: 8s;
+    animation-name: stage-lights;
+    animation-iteration-count: infinite;
+}
+
+@keyframes stage-lights {
+    0% {
+        transform: rotate(0deg); 
+    }
+    
+    25% {
+        transform: rotate(35deg); 
+    }
+
+    50% {
+        transform: rotate(0deg); 
+    }
+
+    75% {
+        transform: rotate(-35deg); 
+    }
+    100% {
+        transform: rotate(0deg); 
+    }
+  }

@@ -7,9 +7,15 @@ This is the repository for my individual assignment for the course CSS to the Re
 - Additional ideas
 
 ## Week 2
-- Making the layout
-- Working on the record scratch player
-- Adding sound to the record scratch
+- Making the layout (with grid)
+- Working on the jog wheel player (in progress)
+- Adding sound to the jog wheel player (in progress)
+- NEW: Add stage lights function for the buttons
+- NEW: Add mini equalizer animation on top of deck along with music playing
+- Party blur background
+- On/off switch for deck + states
+
+I took concerts and stages as inspiration for the decoration of my background
 
 ## Week 3
 
