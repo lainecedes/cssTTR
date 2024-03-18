@@ -8,38 +8,53 @@
 </head>
 <body>
     <!-- no id's and classes, no JS -->
+    <h1></h1>
     <main>
-        <h1></h1>
         <!-- dj tafel? -->
-            <div>  <!-- controller container -->
-                <div>Deck</div>
-                <div><!-- 1: equalizer --></div>
-                <div><!-- 2.1: jog wheel --></div>
+            <div>  <!-- controller container; -->
+                <div>The Deck</div>
+                <div><!-- 1: equalizer -->
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <div><!-- Wheel 1 -->
+                    <div></div>
+                </div>
                 <div>
-                    <!-- 3: deck block -->
-                    <label>
-                        <input type="radio" name="radio"/>
-                      </label>
-                      <label>
-                        <input type="radio" name="radio"/>
-                      </label>
-                      <label>
-                        <input type="radio" name="radio"/>
-                      </label>
-                      <label>
-                        <input type="radio" name="radio"/>
-                      </label>
+                    <!-- Block 1 -->
+                    <label><input type="checkbox" name="stage1"/></label>
+                    <label><input type="checkbox" name="stage2"/></label>
+                    <label><input type="checkbox" name="stage3"/></label>
+                    <label><input type="checkbox" name="stage4"/></label>
                 </div>
 
-                <div><!-- 2.2: jog wheel --> </div>
-                
-                <div>
-                    <!-- Disco ball -->
+                <div> <!-- Block 1 -->
+                    <label><input type="checkbox" name="deck-button"/></label>
+                    <label><input type="range" name="slider"/></label>
                 </div>
+
+                <div> <!-- Wheel 2 -->
+                    <div></div>
+                </div>
+
+                <div>
+                  <!-- block 2-->
+                  <label><input type="checkbox" name="radio"/></label>
+                  <label><input type="checkbox" name="radio"/></label>
+              </div>
             </div>
 
             <div><!-- Stage light --></div>
             <div><!-- Stage light --></div>
+            <div><!-- Stage light --></div>
+            <div><!-- Stage light --></div>
+
     </main>
 </body>
 </html>
